@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	display: flex;
+	min-width: 1280px;
+}
+.wrapper {
+	position: absolute;
+	z-index: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin-top: 30px;
+	padding-right: 40px;
+}
+.logo-container h1 {
+	color: #F1CDB3;
+}
+
+.nav {
+	display: flex;
+}
+.nav-list {
+	display: flex;
+}
+ul li {
+	list-style-type: none;
+}
+.nav-link a {
+	margin-left: 35px;
+	text-decoration: none;
+}
+
+.make-friend {
+	display: flex;
+	background-image: url(images/start-screen-background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	justify-content: space-between;
+	padding-top: 180px;
+}
+.friend-container {
+	width: 45%;
+}
+.make-friend__img {
+	height: 728px;
+	width: 698px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
